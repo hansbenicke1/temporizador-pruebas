@@ -20,7 +20,7 @@ export default function TestCard({ subjectId, subjectName, testDate }) {
 
   useEffect(() => {
     const tick = () => setLeft(target - new Date());
-    tick(); // inicial
+    tick(); 
     const id = setInterval(tick, 1000);
     return () => clearInterval(id);
   }, [target]);

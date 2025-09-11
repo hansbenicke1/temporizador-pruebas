@@ -2,7 +2,6 @@
 import { useEffect, useState } from "react";
 import TestCard from "./components/TestCard";
 
-// función para parsear fechas con o sin "T"
 const parseDate = (dateStr) => {
   return new Date(dateStr.replace(" ", "T"));
 };
