@@ -1,7 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
 
-// Soporta "YYYY-MM-DD HH:mm:ss" y "YYYY-MM-DDTHH:mm:ss"
 const parseDate = (s) => new Date(s.replace(" ", "T"));
 const pad2 = (n) => String(n).padStart(2, "0");
 
